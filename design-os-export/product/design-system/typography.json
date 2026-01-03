@@ -1,0 +1,154 @@
+{
+  "name": "Industrial Typography",
+  "description": "Industrial control panel typography with Rajdhani for display and Inter for body text",
+
+  "fonts": {
+    "display": {
+      "name": "Rajdhani",
+      "import": "@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap')",
+      "fallback": "Inter, system-ui, sans-serif",
+      "description": "Industrial display font for headings, labels, and UI elements",
+      "usage": [
+        "Page titles",
+        "Section headings", 
+        "Navigation items",
+        "Buttons",
+        "Badges and labels",
+        "Status indicators",
+        "Card titles"
+      ]
+    },
+    "body": {
+      "name": "Inter",
+      "import": "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap')",
+      "fallback": "-apple-system, BlinkMacSystemFont, sans-serif",
+      "description": "Clean sans-serif for body text and descriptions",
+      "usage": [
+        "Paragraph text",
+        "Form input values",
+        "Card descriptions",
+        "Long-form content"
+      ]
+    }
+  },
+
+  "scale": {
+    "xs": {
+      "size": "10px",
+      "lineHeight": "1.4",
+      "usage": "Version numbers, tiny labels"
+    },
+    "sm": {
+      "size": "11px",
+      "lineHeight": "1.4",
+      "usage": "Nav section titles, badge text"
+    },
+    "base": {
+      "size": "13-14px",
+      "lineHeight": "1.5",
+      "usage": "Body text, nav items, meta text"
+    },
+    "md": {
+      "size": "16px",
+      "lineHeight": "1.5",
+      "usage": "Default body, card titles"
+    },
+    "lg": {
+      "size": "18px",
+      "lineHeight": "1.4",
+      "usage": "Header title, section headings"
+    },
+    "xl": {
+      "size": "24px",
+      "lineHeight": "1.3",
+      "usage": "Page titles, login header"
+    },
+    "2xl": {
+      "size": "32px",
+      "lineHeight": "1.2",
+      "usage": "Large stat values"
+    }
+  },
+
+  "weights": {
+    "normal": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700
+  },
+
+  "styles": {
+    "pageTitle": {
+      "font": "Rajdhani",
+      "size": "24px",
+      "weight": 700,
+      "letterSpacing": "0.5px",
+      "textTransform": "none"
+    },
+    "sectionTitle": {
+      "font": "Rajdhani",
+      "size": "18px",
+      "weight": 700,
+      "letterSpacing": "0",
+      "textTransform": "none"
+    },
+    "headerTitle": {
+      "font": "Rajdhani",
+      "size": "18px",
+      "weight": 700,
+      "letterSpacing": "1px",
+      "textTransform": "uppercase"
+    },
+    "navSection": {
+      "font": "Rajdhani",
+      "size": "11px",
+      "weight": 700,
+      "letterSpacing": "1px",
+      "textTransform": "uppercase"
+    },
+    "navItem": {
+      "font": "Rajdhani",
+      "size": "14px",
+      "weight": 600,
+      "letterSpacing": "0",
+      "textTransform": "none"
+    },
+    "badge": {
+      "font": "Rajdhani",
+      "size": "11px",
+      "weight": 700,
+      "letterSpacing": "0.5px",
+      "textTransform": "uppercase"
+    },
+    "button": {
+      "font": "Rajdhani",
+      "size": "14-16px",
+      "weight": 700,
+      "letterSpacing": "1px",
+      "textTransform": "uppercase"
+    },
+    "inputLabel": {
+      "font": "Rajdhani",
+      "size": "13px",
+      "weight": 600,
+      "letterSpacing": "0.5px",
+      "textTransform": "uppercase"
+    },
+    "bodyText": {
+      "font": "Rajdhani",
+      "size": "16px",
+      "weight": 500,
+      "letterSpacing": "0",
+      "textTransform": "none"
+    },
+    "metaText": {
+      "font": "Rajdhani",
+      "size": "13px",
+      "weight": 500,
+      "letterSpacing": "0",
+      "textTransform": "none"
+    }
+  },
+
+  "note": "This design uses Rajdhani as the primary font throughout for an industrial feel. The 500 weight is used as the default body weight, with 600-700 for emphasis."
+}

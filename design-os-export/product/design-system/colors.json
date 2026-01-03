@@ -1,0 +1,113 @@
+{
+  "name": "Industrial Safety",
+  "description": "Industrial control panel aesthetic with high-contrast elements and safety-focused color coding",
+  
+  "palette": {
+    "primary": {
+      "name": "Slate",
+      "description": "Primary neutral palette for backgrounds, text, and borders",
+      "tailwind": "slate",
+      "values": {
+        "50": "#f7f8fa",
+        "100": "#eef0f4",
+        "200": "#d8dce4",
+        "300": "#b4bcc9",
+        "400": "#8b95a8",
+        "500": "#5a6377",
+        "600": "#3d4451",
+        "700": "#282d38",
+        "800": "#1a1d24",
+        "900": "#111318",
+        "950": "#0a0c10"
+      }
+    },
+    "accent": {
+      "name": "Orange",
+      "description": "Industrial accent color for highlights, active states, and primary actions",
+      "tailwind": "orange",
+      "values": {
+        "base": "#f97316",
+        "bright": "#fb923c",
+        "dim": "#c2410c"
+      }
+    },
+    "safety": {
+      "description": "Semantic safety colors for status indicators and priority badges",
+      "green": {
+        "base": "#22c55e",
+        "dim": "#166534",
+        "tailwind": "green-500"
+      },
+      "amber": {
+        "base": "#f59e0b",
+        "dim": "#92400e",
+        "tailwind": "amber-500"
+      },
+      "red": {
+        "base": "#ef4444",
+        "dim": "#991b1b",
+        "tailwind": "red-500"
+      },
+      "blue": {
+        "base": "#3b82f6",
+        "dim": "#1d4ed8",
+        "tailwind": "blue-500"
+      }
+    }
+  },
+
+  "semantic": {
+    "background": {
+      "primary": "slate-50",
+      "secondary": "white",
+      "elevated": "white",
+      "header": "slate-900",
+      "overlay": "black/50"
+    },
+    "text": {
+      "primary": "slate-900",
+      "secondary": "slate-600",
+      "muted": "slate-400",
+      "inverse": "white"
+    },
+    "border": {
+      "default": "slate-200",
+      "focus": "slate-800",
+      "accent": "orange-500"
+    },
+    "status": {
+      "success": "green-500",
+      "warning": "amber-500",
+      "error": "red-500",
+      "info": "blue-500"
+    }
+  },
+
+  "components": {
+    "header": {
+      "background": "slate-900",
+      "text": "white",
+      "accent-border": "orange-500",
+      "border-width": "3px"
+    },
+    "badge": {
+      "critical": { "bg": "red-500", "text": "white" },
+      "high": { "bg": "orange-600", "text": "white" },
+      "medium": { "bg": "amber-500", "text": "slate-900" },
+      "low": { "bg": "green-500", "text": "white" },
+      "success": { "bg": "green-500/10", "text": "green-500" },
+      "warning": { "bg": "amber-100", "text": "amber-800" },
+      "danger": { "bg": "red-500/10", "text": "red-500" },
+      "info": { "bg": "blue-500/10", "text": "blue-500" }
+    },
+    "button": {
+      "primary": { "bg": "slate-900", "text": "white", "accent": "orange-500" },
+      "secondary": { "bg": "white", "text": "slate-700", "border": "slate-300" }
+    }
+  },
+
+  "darkMode": {
+    "enabled": false,
+    "note": "Dark mode not implemented in current design; header is always dark"
+  }
+}
